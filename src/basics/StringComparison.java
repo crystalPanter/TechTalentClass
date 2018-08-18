@@ -13,10 +13,15 @@ public class StringComparison {
 		// change the case
 		/////////////////////////////////////
 		
-		if (number1 == number2) {
-			System.out.println("They are the same");
-		} else {
-			System.out.println("They are different");
-		}
+//		if (number1 == number2) {
+//			System.out.println("They are the same");
+//		} else {
+//			System.out.println("They are different");
+//		}
+		
+		String word1 = "Hello";
+		String word2 = "Hello";
+		
+		System.out.println(word1.equals(word2));
 	}
 }
